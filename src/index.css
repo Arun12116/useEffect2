@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+.main-Container{
+  width: 100%;
+  height: 100vh;
+}
+.sub-Container{
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(20, 7, 7);
+}
+.nav-bar  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+
+}
+.nav-bar h1{
+  margin-top: 0.90rem;
+}
+
+.inpute{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.inpute input{
+  width: 30vw;
+  height: 5vh;
+  
+}
+.inpute button{
+margin: 1rem;
+width: 8rem;
+height:2rem;
+font-size: large;
+font-weight: bold;
+
+}
+.para{
+  display: flex;
+  justify-content: center;
+}
+.movies-Cards{
+  display: flex;
+  justify-content: center;
+
+}
+.sub-Cards{
+  width: 20vw;
+  height: 55vh;
+  /* border: 2px solid red; */
+  /* overflow: hidden; */
+  
+}
+.movies{
+  display:flex ;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1rem;
+  gap: 2rem;
+}
+.image img{
+  width:100%;
+  height:45vh;
+  margin-top: 20px;
+}
+.sub-Cards h1{
+display: flex;
+  font-size: 20px;
+  justify-content: center;
+}
+.yerrs h1{
+  margin-top: 20px;
+
+}
